@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+    background: url('./Page1.jpg') no-repeat;
+    height: 100vh;
 }
 
 .App-logo {
@@ -21,4 +23,11 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  background: #333;
+  border-radius: 6px;
+  margin: 16px;
 }
